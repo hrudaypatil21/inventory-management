@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.table th {
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.action-buttons .btn {
+    margin-right: 5px;
+}
+
+.action-buttons .btn:last-child {
+    margin-right: 0;
+}
+
+.stock-input {
+    width: 70px;
+    display: inline-block;
+}
+
+.low-stock {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.modal-content {
+    border-radius: 0.5rem;
+}
+
+.form-control, .form-select {
+    border-radius: 0.25rem;
+}
+
+#inventoryTable tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
